@@ -1,5 +1,4 @@
-import Axios from "axios";
-import React, { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect } from "react";
 import axios from "axios";
 
 // Crear el context
