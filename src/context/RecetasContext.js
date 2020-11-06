@@ -22,7 +22,7 @@ const RecetasProvider = ({ children }) => {
       };
       obtnerRecetas();
     }
-  }, [busqueda]);
+  }, [busqueda, consultar]);
   return (
     <RecetasContext.Provider value={{ recetas, findBusqueda, setConsultar }}>
       {children}
